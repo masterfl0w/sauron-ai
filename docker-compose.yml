@@ -1,0 +1,17 @@
+services:
+  sauron:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - /proc:/host/proc:ro
+    # Network host mode is often required for meaningful GPU/Hardware stats on Linux
+    # network_mode: "host"
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
