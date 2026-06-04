@@ -1,0 +1,8 @@
+setup.py
+sauron_monitor/__init__.py
+sauron_monitor/py.typed
+sauron_monitor.egg-info/PKG-INFO
+sauron_monitor.egg-info/SOURCES.txt
+sauron_monitor.egg-info/dependency_links.txt
+sauron_monitor.egg-info/requires.txt
+sauron_monitor.egg-info/top_level.txt

@@ -5,19 +5,11 @@
         [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
         
   @app.on_event("startup")
-INFO:     Started server process [31229]
+INFO:     Started server process [35077]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:51127 - "WebSocket /ws" [accepted]
-INFO:     connection closed
-INFO:     127.0.0.1:51128 - "WebSocket /ws" [accepted]
+INFO:     127.0.0.1:52978 - "WebSocket /ws" [accepted]
 INFO:     connection open
-INFO:     127.0.0.1:51129 - "WebSocket /ws" [accepted]
+INFO:     127.0.0.1:52979 - "WebSocket /ws" [accepted]
 INFO:     connection open
-INFO:     Shutting down
-INFO:     connection closed
-INFO:     connection closed
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [31229]
